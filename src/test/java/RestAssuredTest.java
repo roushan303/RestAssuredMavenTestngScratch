@@ -6,7 +6,7 @@ import java.util.*;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
 
-public class RestAssuredTest {
+public class RestAssuredTest extends BaseTest {
 
     //baseUri
     public static String baseUri = "https://rara-ms-oms-brs.dev.rara.delivery";

@@ -6,7 +6,7 @@ import java.util.HashMap;
 
 import static io.restassured.RestAssured.given;
 
-public class ShippingFeeTest {
+public class ShippingFeeTest extends BaseTest {
 
     public static String baseURI = "https://rara-ms-oms-brs.dev.rara.delivery";
 
